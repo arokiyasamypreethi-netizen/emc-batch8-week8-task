@@ -44,10 +44,10 @@
 - `backend` should depend on `db`
 - `db` should use the `mysql:8` image
 - `db` should have the following environment variables:
-  - `MYSQL_ROOT_PASSWORD`
-  - `MYSQL_DATABASE`
-  - `MYSQL_USER`
-  - `MYSQL_PASSWORD`
+  - `MYSQL_ROOT_PASSWORD: rootpass`
+  - `MYSQL_DATABASE: app_db`
+  - `MYSQL_USER: app_user`
+  - `MYSQL_PASSWORD: app_pass`
 
 ### 4️⃣ Run the Application
 
