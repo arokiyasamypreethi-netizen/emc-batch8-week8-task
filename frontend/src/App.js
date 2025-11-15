@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Batch 2 Week 8 Task</h1>
+        <h1>Batch 3 Week 8 Task</h1>
         <h2>Database Status:</h2>
         <p>{dbStatus}</p>
       </header>
