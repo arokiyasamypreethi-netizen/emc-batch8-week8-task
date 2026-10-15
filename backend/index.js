@@ -6,9 +6,9 @@ const port = 4000;
 
 // Create connection to MySQL (use service name as host)
 const connection = mysql.createConnection({
-  host: 'host.docker.internal',
-  user: 'app_user',
-  password: 'app_pass',
+  host: 'localhost',
+  user: 'root',
+  password: 'MyNewPass123!',
   database: 'app_db'
 });
 
